@@ -1,0 +1,8512 @@
+{
+ "samples": [
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file005.txt",
+   "content": "测试",
+   "task": "创建文件file005.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file005.txt;子任务2:向file005.txt写入内容测试",
+   "subtasks": [
+    "创建文件file005.txt",
+    "向file005.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file005.txt",
+    "WRITE file005.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file004.txt",
+   "content": "数据",
+   "task": "创建文件file004.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file004.txt;子任务2:向file004.txt写入内容数据",
+   "subtasks": [
+    "创建文件file004.txt",
+    "向file004.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file004.txt",
+    "WRITE file004.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file034.txt",
+   "content": "世界",
+   "task": "创建文件file034.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file034.txt;子任务2:向file034.txt写入内容世界",
+   "subtasks": [
+    "创建文件file034.txt",
+    "向file034.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file034.txt",
+    "WRITE file034.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file007.txt",
+   "content": "内容A",
+   "task": "创建文件file007.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file007.txt;子任务2:向file007.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file007.txt",
+    "向file007.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file007.txt",
+    "WRITE file007.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file028.txt",
+   "content": "你好",
+   "task": "创建文件file028.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file028.txt;子任务2:向file028.txt写入内容你好",
+   "subtasks": [
+    "创建文件file028.txt",
+    "向file028.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file028.txt",
+    "WRITE file028.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file017.txt",
+   "content": "文件内容",
+   "task": "创建文件file017.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file017.txt;子任务2:向file017.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file017.txt",
+    "向file017.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file017.txt",
+    "WRITE file017.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file011.txt",
+   "content": "你好世界",
+   "task": "创建文件file011.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file011.txt;子任务2:向file011.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file011.txt",
+    "向file011.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file011.txt",
+    "WRITE file011.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file026.txt",
+   "content": "世界",
+   "task": "创建文件file026.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file026.txt;子任务2:向file026.txt写入内容世界",
+   "subtasks": [
+    "创建文件file026.txt",
+    "向file026.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file026.txt",
+    "WRITE file026.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file029.txt",
+   "content": "测试",
+   "task": "创建文件file029.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file029.txt;子任务2:向file029.txt写入内容测试",
+   "subtasks": [
+    "创建文件file029.txt",
+    "向file029.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file029.txt",
+    "WRITE file029.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file016.txt",
+   "content": "测试",
+   "task": "创建文件file016.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file016.txt;子任务2:向file016.txt写入内容测试",
+   "subtasks": [
+    "创建文件file016.txt",
+    "向file016.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file016.txt",
+    "WRITE file016.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file034.txt",
+   "content": "abc123",
+   "task": "创建文件file034.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file034.txt;子任务2:向file034.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file034.txt",
+    "向file034.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file034.txt",
+    "WRITE file034.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "a.txt",
+   "content": "你好",
+   "task": "创建文件a.txt并写入内容你好",
+   "decomp": "子任务1:创建文件a.txt;子任务2:向a.txt写入内容你好",
+   "subtasks": [
+    "创建文件a.txt",
+    "向a.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH a.txt",
+    "WRITE a.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file012.txt",
+   "content": "你好",
+   "task": "创建文件file012.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file012.txt;子任务2:向file012.txt写入内容你好",
+   "subtasks": [
+    "创建文件file012.txt",
+    "向file012.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file012.txt",
+    "WRITE file012.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file009.txt",
+   "content": "内容B",
+   "task": "创建文件file009.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file009.txt;子任务2:向file009.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file009.txt",
+    "向file009.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file009.txt",
+    "WRITE file009.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file021.txt",
+   "content": "文件内容",
+   "task": "创建文件file021.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file021.txt;子任务2:向file021.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file021.txt",
+    "向file021.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file021.txt",
+    "WRITE file021.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file009.txt",
+   "content": "你好世界",
+   "task": "创建文件file009.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file009.txt;子任务2:向file009.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file009.txt",
+    "向file009.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file009.txt",
+    "WRITE file009.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file032.txt",
+   "content": "内容B",
+   "task": "创建文件file032.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file032.txt;子任务2:向file032.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file032.txt",
+    "向file032.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file032.txt",
+    "WRITE file032.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "out.txt",
+   "content": "test",
+   "task": "创建文件out.txt并写入内容test",
+   "decomp": "子任务1:创建文件out.txt;子任务2:向out.txt写入内容test",
+   "subtasks": [
+    "创建文件out.txt",
+    "向out.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH out.txt",
+    "WRITE out.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "data.txt",
+   "content": "测试",
+   "task": "创建文件data.txt并写入内容测试",
+   "decomp": "子任务1:创建文件data.txt;子任务2:向data.txt写入内容测试",
+   "subtasks": [
+    "创建文件data.txt",
+    "向data.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH data.txt",
+    "WRITE data.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "demo.txt",
+   "content": "你好世界",
+   "task": "创建文件demo.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件demo.txt;子任务2:向demo.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件demo.txt",
+    "向demo.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH demo.txt",
+    "WRITE demo.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file013.txt",
+   "content": "hello",
+   "task": "创建文件file013.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file013.txt;子任务2:向file013.txt写入内容hello",
+   "subtasks": [
+    "创建文件file013.txt",
+    "向file013.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file013.txt",
+    "WRITE file013.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file039.txt",
+   "content": "测试",
+   "task": "创建文件file039.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file039.txt;子任务2:向file039.txt写入内容测试",
+   "subtasks": [
+    "创建文件file039.txt",
+    "向file039.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file039.txt",
+    "WRITE file039.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "result.txt",
+   "content": "ok",
+   "task": "创建文件result.txt并写入内容ok",
+   "decomp": "子任务1:创建文件result.txt;子任务2:向result.txt写入内容ok",
+   "subtasks": [
+    "创建文件result.txt",
+    "向result.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH result.txt",
+    "WRITE result.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file027.txt",
+   "content": "hello",
+   "task": "创建文件file027.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file027.txt;子任务2:向file027.txt写入内容hello",
+   "subtasks": [
+    "创建文件file027.txt",
+    "向file027.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file027.txt",
+    "WRITE file027.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "log.txt",
+   "content": "ok",
+   "task": "创建文件log.txt并写入内容ok",
+   "decomp": "子任务1:创建文件log.txt;子任务2:向log.txt写入内容ok",
+   "subtasks": [
+    "创建文件log.txt",
+    "向log.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH log.txt",
+    "WRITE log.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file035.txt",
+   "content": "abc123",
+   "task": "创建文件file035.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file035.txt;子任务2:向file035.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file035.txt",
+    "向file035.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file035.txt",
+    "WRITE file035.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file024.txt",
+   "content": "hello",
+   "task": "创建文件file024.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file024.txt;子任务2:向file024.txt写入内容hello",
+   "subtasks": [
+    "创建文件file024.txt",
+    "向file024.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file024.txt",
+    "WRITE file024.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file028.txt",
+   "content": "内容A",
+   "task": "创建文件file028.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file028.txt;子任务2:向file028.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file028.txt",
+    "向file028.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file028.txt",
+    "WRITE file028.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file025.txt",
+   "content": "数据",
+   "task": "创建文件file025.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file025.txt;子任务2:向file025.txt写入内容数据",
+   "subtasks": [
+    "创建文件file025.txt",
+    "向file025.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file025.txt",
+    "WRITE file025.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "data.txt",
+   "content": "test",
+   "task": "创建文件data.txt并写入内容test",
+   "decomp": "子任务1:创建文件data.txt;子任务2:向data.txt写入内容test",
+   "subtasks": [
+    "创建文件data.txt",
+    "向data.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH data.txt",
+    "WRITE data.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file017.txt",
+   "content": "数据",
+   "task": "创建文件file017.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file017.txt;子任务2:向file017.txt写入内容数据",
+   "subtasks": [
+    "创建文件file017.txt",
+    "向file017.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file017.txt",
+    "WRITE file017.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file030.txt",
+   "content": "你好世界",
+   "task": "创建文件file030.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file030.txt;子任务2:向file030.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file030.txt",
+    "向file030.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file030.txt",
+    "WRITE file030.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "note.txt",
+   "content": "ok",
+   "task": "创建文件note.txt并写入内容ok",
+   "decomp": "子任务1:创建文件note.txt;子任务2:向note.txt写入内容ok",
+   "subtasks": [
+    "创建文件note.txt",
+    "向note.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH note.txt",
+    "WRITE note.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file035.txt",
+   "content": "hello",
+   "task": "创建文件file035.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file035.txt;子任务2:向file035.txt写入内容hello",
+   "subtasks": [
+    "创建文件file035.txt",
+    "向file035.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file035.txt",
+    "WRITE file035.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file019.txt",
+   "content": "数据",
+   "task": "创建文件file019.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file019.txt;子任务2:向file019.txt写入内容数据",
+   "subtasks": [
+    "创建文件file019.txt",
+    "向file019.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file019.txt",
+    "WRITE file019.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "out.txt",
+   "content": "hello",
+   "task": "创建文件out.txt并写入内容hello",
+   "decomp": "子任务1:创建文件out.txt;子任务2:向out.txt写入内容hello",
+   "subtasks": [
+    "创建文件out.txt",
+    "向out.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH out.txt",
+    "WRITE out.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file012.txt",
+   "content": "内容A",
+   "task": "创建文件file012.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file012.txt;子任务2:向file012.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file012.txt",
+    "向file012.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file012.txt",
+    "WRITE file012.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file033.txt",
+   "content": "测试",
+   "task": "创建文件file033.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file033.txt;子任务2:向file033.txt写入内容测试",
+   "subtasks": [
+    "创建文件file033.txt",
+    "向file033.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file033.txt",
+    "WRITE file033.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file018.txt",
+   "content": "测试",
+   "task": "创建文件file018.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file018.txt;子任务2:向file018.txt写入内容测试",
+   "subtasks": [
+    "创建文件file018.txt",
+    "向file018.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file018.txt",
+    "WRITE file018.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file012.txt",
+   "content": "内容B",
+   "task": "创建文件file012.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file012.txt;子任务2:向file012.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file012.txt",
+    "向file012.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file012.txt",
+    "WRITE file012.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "ok",
+   "task": "创建文件hello.txt并写入内容ok",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容ok",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file035.txt",
+   "content": "ok",
+   "task": "创建文件file035.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file035.txt;子任务2:向file035.txt写入内容ok",
+   "subtasks": [
+    "创建文件file035.txt",
+    "向file035.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file035.txt",
+    "WRITE file035.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file032.txt",
+   "content": "hello",
+   "task": "创建文件file032.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file032.txt;子任务2:向file032.txt写入内容hello",
+   "subtasks": [
+    "创建文件file032.txt",
+    "向file032.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file032.txt",
+    "WRITE file032.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file036.txt",
+   "content": "你好",
+   "task": "创建文件file036.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file036.txt;子任务2:向file036.txt写入内容你好",
+   "subtasks": [
+    "创建文件file036.txt",
+    "向file036.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file036.txt",
+    "WRITE file036.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file032.txt",
+   "content": "你好世界",
+   "task": "创建文件file032.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file032.txt;子任务2:向file032.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file032.txt",
+    "向file032.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file032.txt",
+    "WRITE file032.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file003.txt",
+   "content": "你好世界",
+   "task": "创建文件file003.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file003.txt;子任务2:向file003.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file003.txt",
+    "向file003.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file003.txt",
+    "WRITE file003.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file016.txt",
+   "content": "abc123",
+   "task": "创建文件file016.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file016.txt;子任务2:向file016.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file016.txt",
+    "向file016.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file016.txt",
+    "WRITE file016.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file006.txt",
+   "content": "测试",
+   "task": "创建文件file006.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file006.txt;子任务2:向file006.txt写入内容测试",
+   "subtasks": [
+    "创建文件file006.txt",
+    "向file006.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file006.txt",
+    "WRITE file006.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file005.txt",
+   "content": "abc123",
+   "task": "创建文件file005.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file005.txt;子任务2:向file005.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file005.txt",
+    "向file005.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file005.txt",
+    "WRITE file005.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "data.txt",
+   "content": "内容B",
+   "task": "创建文件data.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件data.txt;子任务2:向data.txt写入内容内容B",
+   "subtasks": [
+    "创建文件data.txt",
+    "向data.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH data.txt",
+    "WRITE data.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "a.txt",
+   "content": "你好世界",
+   "task": "创建文件a.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件a.txt;子任务2:向a.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件a.txt",
+    "向a.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH a.txt",
+    "WRITE a.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file010.txt",
+   "content": "你好世界",
+   "task": "创建文件file010.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file010.txt;子任务2:向file010.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file010.txt",
+    "向file010.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file010.txt",
+    "WRITE file010.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file029.txt",
+   "content": "世界",
+   "task": "创建文件file029.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file029.txt;子任务2:向file029.txt写入内容世界",
+   "subtasks": [
+    "创建文件file029.txt",
+    "向file029.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file029.txt",
+    "WRITE file029.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file034.txt",
+   "content": "内容B",
+   "task": "创建文件file034.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file034.txt;子任务2:向file034.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file034.txt",
+    "向file034.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file034.txt",
+    "WRITE file034.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file025.txt",
+   "content": "内容B",
+   "task": "创建文件file025.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file025.txt;子任务2:向file025.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file025.txt",
+    "向file025.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file025.txt",
+    "WRITE file025.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file012.txt",
+   "content": "数据",
+   "task": "创建文件file012.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file012.txt;子任务2:向file012.txt写入内容数据",
+   "subtasks": [
+    "创建文件file012.txt",
+    "向file012.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file012.txt",
+    "WRITE file012.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "log.txt",
+   "content": "测试",
+   "task": "创建文件log.txt并写入内容测试",
+   "decomp": "子任务1:创建文件log.txt;子任务2:向log.txt写入内容测试",
+   "subtasks": [
+    "创建文件log.txt",
+    "向log.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH log.txt",
+    "WRITE log.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file027.txt",
+   "content": "文件内容",
+   "task": "创建文件file027.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file027.txt;子任务2:向file027.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file027.txt",
+    "向file027.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file027.txt",
+    "WRITE file027.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file036.txt",
+   "content": "文件内容",
+   "task": "创建文件file036.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file036.txt;子任务2:向file036.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file036.txt",
+    "向file036.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file036.txt",
+    "WRITE file036.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "result.txt",
+   "content": "你好",
+   "task": "创建文件result.txt并写入内容你好",
+   "decomp": "子任务1:创建文件result.txt;子任务2:向result.txt写入内容你好",
+   "subtasks": [
+    "创建文件result.txt",
+    "向result.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH result.txt",
+    "WRITE result.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file002.txt",
+   "content": "测试",
+   "task": "创建文件file002.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file002.txt;子任务2:向file002.txt写入内容测试",
+   "subtasks": [
+    "创建文件file002.txt",
+    "向file002.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file002.txt",
+    "WRITE file002.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "a.txt",
+   "content": "hello",
+   "task": "创建文件a.txt并写入内容hello",
+   "decomp": "子任务1:创建文件a.txt;子任务2:向a.txt写入内容hello",
+   "subtasks": [
+    "创建文件a.txt",
+    "向a.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH a.txt",
+    "WRITE a.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "data.txt",
+   "content": "你好",
+   "task": "创建文件data.txt并写入内容你好",
+   "decomp": "子任务1:创建文件data.txt;子任务2:向data.txt写入内容你好",
+   "subtasks": [
+    "创建文件data.txt",
+    "向data.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH data.txt",
+    "WRITE data.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file019.txt",
+   "content": "abc123",
+   "task": "创建文件file019.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file019.txt;子任务2:向file019.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file019.txt",
+    "向file019.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file019.txt",
+    "WRITE file019.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file026.txt",
+   "content": "内容A",
+   "task": "创建文件file026.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file026.txt;子任务2:向file026.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file026.txt",
+    "向file026.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file026.txt",
+    "WRITE file026.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file029.txt",
+   "content": "abc123",
+   "task": "创建文件file029.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file029.txt;子任务2:向file029.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file029.txt",
+    "向file029.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file029.txt",
+    "WRITE file029.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file021.txt",
+   "content": "测试",
+   "task": "创建文件file021.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file021.txt;子任务2:向file021.txt写入内容测试",
+   "subtasks": [
+    "创建文件file021.txt",
+    "向file021.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file021.txt",
+    "WRITE file021.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file002.txt",
+   "content": "你好",
+   "task": "创建文件file002.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file002.txt;子任务2:向file002.txt写入内容你好",
+   "subtasks": [
+    "创建文件file002.txt",
+    "向file002.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file002.txt",
+    "WRITE file002.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file029.txt",
+   "content": "数据",
+   "task": "创建文件file029.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file029.txt;子任务2:向file029.txt写入内容数据",
+   "subtasks": [
+    "创建文件file029.txt",
+    "向file029.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file029.txt",
+    "WRITE file029.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file019.txt",
+   "content": "test",
+   "task": "创建文件file019.txt并写入内容test",
+   "decomp": "子任务1:创建文件file019.txt;子任务2:向file019.txt写入内容test",
+   "subtasks": [
+    "创建文件file019.txt",
+    "向file019.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file019.txt",
+    "WRITE file019.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file023.txt",
+   "content": "ok",
+   "task": "创建文件file023.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file023.txt;子任务2:向file023.txt写入内容ok",
+   "subtasks": [
+    "创建文件file023.txt",
+    "向file023.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file023.txt",
+    "WRITE file023.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "abc123",
+   "task": "创建文件hello.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容abc123",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file021.txt",
+   "content": "内容B",
+   "task": "创建文件file021.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file021.txt;子任务2:向file021.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file021.txt",
+    "向file021.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file021.txt",
+    "WRITE file021.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "a.txt",
+   "content": "数据",
+   "task": "创建文件a.txt并写入内容数据",
+   "decomp": "子任务1:创建文件a.txt;子任务2:向a.txt写入内容数据",
+   "subtasks": [
+    "创建文件a.txt",
+    "向a.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH a.txt",
+    "WRITE a.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file014.txt",
+   "content": "hello",
+   "task": "创建文件file014.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file014.txt;子任务2:向file014.txt写入内容hello",
+   "subtasks": [
+    "创建文件file014.txt",
+    "向file014.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file014.txt",
+    "WRITE file014.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file035.txt",
+   "content": "test",
+   "task": "创建文件file035.txt并写入内容test",
+   "decomp": "子任务1:创建文件file035.txt;子任务2:向file035.txt写入内容test",
+   "subtasks": [
+    "创建文件file035.txt",
+    "向file035.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file035.txt",
+    "WRITE file035.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file011.txt",
+   "content": "测试",
+   "task": "创建文件file011.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file011.txt;子任务2:向file011.txt写入内容测试",
+   "subtasks": [
+    "创建文件file011.txt",
+    "向file011.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file011.txt",
+    "WRITE file011.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file016.txt",
+   "content": "你好",
+   "task": "创建文件file016.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file016.txt;子任务2:向file016.txt写入内容你好",
+   "subtasks": [
+    "创建文件file016.txt",
+    "向file016.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file016.txt",
+    "WRITE file016.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file031.txt",
+   "content": "hello",
+   "task": "创建文件file031.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file031.txt;子任务2:向file031.txt写入内容hello",
+   "subtasks": [
+    "创建文件file031.txt",
+    "向file031.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file031.txt",
+    "WRITE file031.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "bar.txt",
+   "content": "数据",
+   "task": "创建文件bar.txt并写入内容数据",
+   "decomp": "子任务1:创建文件bar.txt;子任务2:向bar.txt写入内容数据",
+   "subtasks": [
+    "创建文件bar.txt",
+    "向bar.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH bar.txt",
+    "WRITE bar.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file009.txt",
+   "content": "hello",
+   "task": "创建文件file009.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file009.txt;子任务2:向file009.txt写入内容hello",
+   "subtasks": [
+    "创建文件file009.txt",
+    "向file009.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file009.txt",
+    "WRITE file009.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file015.txt",
+   "content": "你好世界",
+   "task": "创建文件file015.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file015.txt;子任务2:向file015.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file015.txt",
+    "向file015.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file015.txt",
+    "WRITE file015.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file036.txt",
+   "content": "测试",
+   "task": "创建文件file036.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file036.txt;子任务2:向file036.txt写入内容测试",
+   "subtasks": [
+    "创建文件file036.txt",
+    "向file036.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file036.txt",
+    "WRITE file036.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file004.txt",
+   "content": "内容A",
+   "task": "创建文件file004.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file004.txt;子任务2:向file004.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file004.txt",
+    "向file004.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file004.txt",
+    "WRITE file004.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file024.txt",
+   "content": "文件内容",
+   "task": "创建文件file024.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file024.txt;子任务2:向file024.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file024.txt",
+    "向file024.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file024.txt",
+    "WRITE file024.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "a.txt",
+   "content": "内容A",
+   "task": "创建文件a.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件a.txt;子任务2:向a.txt写入内容内容A",
+   "subtasks": [
+    "创建文件a.txt",
+    "向a.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH a.txt",
+    "WRITE a.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file038.txt",
+   "content": "内容A",
+   "task": "创建文件file038.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file038.txt;子任务2:向file038.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file038.txt",
+    "向file038.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file038.txt",
+    "WRITE file038.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "result.txt",
+   "content": "数据",
+   "task": "创建文件result.txt并写入内容数据",
+   "decomp": "子任务1:创建文件result.txt;子任务2:向result.txt写入内容数据",
+   "subtasks": [
+    "创建文件result.txt",
+    "向result.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH result.txt",
+    "WRITE result.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file000.txt",
+   "content": "hello",
+   "task": "创建文件file000.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file000.txt;子任务2:向file000.txt写入内容hello",
+   "subtasks": [
+    "创建文件file000.txt",
+    "向file000.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file000.txt",
+    "WRITE file000.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file006.txt",
+   "content": "hello",
+   "task": "创建文件file006.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file006.txt;子任务2:向file006.txt写入内容hello",
+   "subtasks": [
+    "创建文件file006.txt",
+    "向file006.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file006.txt",
+    "WRITE file006.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file004.txt",
+   "content": "ok",
+   "task": "创建文件file004.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file004.txt;子任务2:向file004.txt写入内容ok",
+   "subtasks": [
+    "创建文件file004.txt",
+    "向file004.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file004.txt",
+    "WRITE file004.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file023.txt",
+   "content": "数据",
+   "task": "创建文件file023.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file023.txt;子任务2:向file023.txt写入内容数据",
+   "subtasks": [
+    "创建文件file023.txt",
+    "向file023.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file023.txt",
+    "WRITE file023.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file014.txt",
+   "content": "你好",
+   "task": "创建文件file014.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file014.txt;子任务2:向file014.txt写入内容你好",
+   "subtasks": [
+    "创建文件file014.txt",
+    "向file014.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file014.txt",
+    "WRITE file014.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "note.txt",
+   "content": "测试",
+   "task": "创建文件note.txt并写入内容测试",
+   "decomp": "子任务1:创建文件note.txt;子任务2:向note.txt写入内容测试",
+   "subtasks": [
+    "创建文件note.txt",
+    "向note.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH note.txt",
+    "WRITE note.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "out.txt",
+   "content": "测试",
+   "task": "创建文件out.txt并写入内容测试",
+   "decomp": "子任务1:创建文件out.txt;子任务2:向out.txt写入内容测试",
+   "subtasks": [
+    "创建文件out.txt",
+    "向out.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH out.txt",
+    "WRITE out.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "out.txt",
+   "content": "abc123",
+   "task": "创建文件out.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件out.txt;子任务2:向out.txt写入内容abc123",
+   "subtasks": [
+    "创建文件out.txt",
+    "向out.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH out.txt",
+    "WRITE out.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "out.txt",
+   "content": "你好世界",
+   "task": "创建文件out.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件out.txt;子任务2:向out.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件out.txt",
+    "向out.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH out.txt",
+    "WRITE out.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file018.txt",
+   "content": "test",
+   "task": "创建文件file018.txt并写入内容test",
+   "decomp": "子任务1:创建文件file018.txt;子任务2:向file018.txt写入内容test",
+   "subtasks": [
+    "创建文件file018.txt",
+    "向file018.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file018.txt",
+    "WRITE file018.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file004.txt",
+   "content": "hello",
+   "task": "创建文件file004.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file004.txt;子任务2:向file004.txt写入内容hello",
+   "subtasks": [
+    "创建文件file004.txt",
+    "向file004.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file004.txt",
+    "WRITE file004.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file021.txt",
+   "content": "世界",
+   "task": "创建文件file021.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file021.txt;子任务2:向file021.txt写入内容世界",
+   "subtasks": [
+    "创建文件file021.txt",
+    "向file021.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file021.txt",
+    "WRITE file021.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file004.txt",
+   "content": "你好",
+   "task": "创建文件file004.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file004.txt;子任务2:向file004.txt写入内容你好",
+   "subtasks": [
+    "创建文件file004.txt",
+    "向file004.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file004.txt",
+    "WRITE file004.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file009.txt",
+   "content": "数据",
+   "task": "创建文件file009.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file009.txt;子任务2:向file009.txt写入内容数据",
+   "subtasks": [
+    "创建文件file009.txt",
+    "向file009.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file009.txt",
+    "WRITE file009.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file019.txt",
+   "content": "测试",
+   "task": "创建文件file019.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file019.txt;子任务2:向file019.txt写入内容测试",
+   "subtasks": [
+    "创建文件file019.txt",
+    "向file019.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file019.txt",
+    "WRITE file019.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "note.txt",
+   "content": "内容B",
+   "task": "创建文件note.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件note.txt;子任务2:向note.txt写入内容内容B",
+   "subtasks": [
+    "创建文件note.txt",
+    "向note.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH note.txt",
+    "WRITE note.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file030.txt",
+   "content": "你好",
+   "task": "创建文件file030.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file030.txt;子任务2:向file030.txt写入内容你好",
+   "subtasks": [
+    "创建文件file030.txt",
+    "向file030.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file030.txt",
+    "WRITE file030.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file009.txt",
+   "content": "世界",
+   "task": "创建文件file009.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file009.txt;子任务2:向file009.txt写入内容世界",
+   "subtasks": [
+    "创建文件file009.txt",
+    "向file009.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file009.txt",
+    "WRITE file009.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file032.txt",
+   "content": "文件内容",
+   "task": "创建文件file032.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file032.txt;子任务2:向file032.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file032.txt",
+    "向file032.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file032.txt",
+    "WRITE file032.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "a.txt",
+   "content": "内容B",
+   "task": "创建文件a.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件a.txt;子任务2:向a.txt写入内容内容B",
+   "subtasks": [
+    "创建文件a.txt",
+    "向a.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH a.txt",
+    "WRITE a.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file026.txt",
+   "content": "内容B",
+   "task": "创建文件file026.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file026.txt;子任务2:向file026.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file026.txt",
+    "向file026.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file026.txt",
+    "WRITE file026.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "x.txt",
+   "content": "你好世界",
+   "task": "创建文件x.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件x.txt;子任务2:向x.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件x.txt",
+    "向x.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH x.txt",
+    "WRITE x.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file035.txt",
+   "content": "文件内容",
+   "task": "创建文件file035.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file035.txt;子任务2:向file035.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file035.txt",
+    "向file035.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file035.txt",
+    "WRITE file035.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file023.txt",
+   "content": "hello",
+   "task": "创建文件file023.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file023.txt;子任务2:向file023.txt写入内容hello",
+   "subtasks": [
+    "创建文件file023.txt",
+    "向file023.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file023.txt",
+    "WRITE file023.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file023.txt",
+   "content": "你好世界",
+   "task": "创建文件file023.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file023.txt;子任务2:向file023.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file023.txt",
+    "向file023.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file023.txt",
+    "WRITE file023.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "foo.txt",
+   "content": "你好",
+   "task": "创建文件foo.txt并写入内容你好",
+   "decomp": "子任务1:创建文件foo.txt;子任务2:向foo.txt写入内容你好",
+   "subtasks": [
+    "创建文件foo.txt",
+    "向foo.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH foo.txt",
+    "WRITE foo.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file021.txt",
+   "content": "hello",
+   "task": "创建文件file021.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file021.txt;子任务2:向file021.txt写入内容hello",
+   "subtasks": [
+    "创建文件file021.txt",
+    "向file021.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file021.txt",
+    "WRITE file021.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file038.txt",
+   "content": "你好世界",
+   "task": "创建文件file038.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file038.txt;子任务2:向file038.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file038.txt",
+    "向file038.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file038.txt",
+    "WRITE file038.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file005.txt",
+   "content": "hello",
+   "task": "创建文件file005.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file005.txt;子任务2:向file005.txt写入内容hello",
+   "subtasks": [
+    "创建文件file005.txt",
+    "向file005.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file005.txt",
+    "WRITE file005.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file038.txt",
+   "content": "你好",
+   "task": "创建文件file038.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file038.txt;子任务2:向file038.txt写入内容你好",
+   "subtasks": [
+    "创建文件file038.txt",
+    "向file038.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file038.txt",
+    "WRITE file038.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file002.txt",
+   "content": "test",
+   "task": "创建文件file002.txt并写入内容test",
+   "decomp": "子任务1:创建文件file002.txt;子任务2:向file002.txt写入内容test",
+   "subtasks": [
+    "创建文件file002.txt",
+    "向file002.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file002.txt",
+    "WRITE file002.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file003.txt",
+   "content": "ok",
+   "task": "创建文件file003.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file003.txt;子任务2:向file003.txt写入内容ok",
+   "subtasks": [
+    "创建文件file003.txt",
+    "向file003.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file003.txt",
+    "WRITE file003.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file016.txt",
+   "content": "test",
+   "task": "创建文件file016.txt并写入内容test",
+   "decomp": "子任务1:创建文件file016.txt;子任务2:向file016.txt写入内容test",
+   "subtasks": [
+    "创建文件file016.txt",
+    "向file016.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file016.txt",
+    "WRITE file016.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file035.txt",
+   "content": "你好",
+   "task": "创建文件file035.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file035.txt;子任务2:向file035.txt写入内容你好",
+   "subtasks": [
+    "创建文件file035.txt",
+    "向file035.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file035.txt",
+    "WRITE file035.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file003.txt",
+   "content": "内容B",
+   "task": "创建文件file003.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file003.txt;子任务2:向file003.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file003.txt",
+    "向file003.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file003.txt",
+    "WRITE file003.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file008.txt",
+   "content": "世界",
+   "task": "创建文件file008.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file008.txt;子任务2:向file008.txt写入内容世界",
+   "subtasks": [
+    "创建文件file008.txt",
+    "向file008.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file008.txt",
+    "WRITE file008.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file005.txt",
+   "content": "内容A",
+   "task": "创建文件file005.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file005.txt;子任务2:向file005.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file005.txt",
+    "向file005.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file005.txt",
+    "WRITE file005.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file022.txt",
+   "content": "文件内容",
+   "task": "创建文件file022.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file022.txt;子任务2:向file022.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file022.txt",
+    "向file022.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file022.txt",
+    "WRITE file022.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "x.txt",
+   "content": "ok",
+   "task": "创建文件x.txt并写入内容ok",
+   "decomp": "子任务1:创建文件x.txt;子任务2:向x.txt写入内容ok",
+   "subtasks": [
+    "创建文件x.txt",
+    "向x.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH x.txt",
+    "WRITE x.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file014.txt",
+   "content": "数据",
+   "task": "创建文件file014.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file014.txt;子任务2:向file014.txt写入内容数据",
+   "subtasks": [
+    "创建文件file014.txt",
+    "向file014.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file014.txt",
+    "WRITE file014.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file000.txt",
+   "content": "你好",
+   "task": "创建文件file000.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file000.txt;子任务2:向file000.txt写入内容你好",
+   "subtasks": [
+    "创建文件file000.txt",
+    "向file000.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file000.txt",
+    "WRITE file000.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file000.txt",
+   "content": "测试",
+   "task": "创建文件file000.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file000.txt;子任务2:向file000.txt写入内容测试",
+   "subtasks": [
+    "创建文件file000.txt",
+    "向file000.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file000.txt",
+    "WRITE file000.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file017.txt",
+   "content": "你好世界",
+   "task": "创建文件file017.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file017.txt;子任务2:向file017.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file017.txt",
+    "向file017.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file017.txt",
+    "WRITE file017.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file032.txt",
+   "content": "你好",
+   "task": "创建文件file032.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file032.txt;子任务2:向file032.txt写入内容你好",
+   "subtasks": [
+    "创建文件file032.txt",
+    "向file032.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file032.txt",
+    "WRITE file032.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file011.txt",
+   "content": "内容A",
+   "task": "创建文件file011.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file011.txt;子任务2:向file011.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file011.txt",
+    "向file011.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file011.txt",
+    "WRITE file011.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file030.txt",
+   "content": "hello",
+   "task": "创建文件file030.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file030.txt;子任务2:向file030.txt写入内容hello",
+   "subtasks": [
+    "创建文件file030.txt",
+    "向file030.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file030.txt",
+    "WRITE file030.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file025.txt",
+   "content": "ok",
+   "task": "创建文件file025.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file025.txt;子任务2:向file025.txt写入内容ok",
+   "subtasks": [
+    "创建文件file025.txt",
+    "向file025.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file025.txt",
+    "WRITE file025.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file007.txt",
+   "content": "你好世界",
+   "task": "创建文件file007.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file007.txt;子任务2:向file007.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file007.txt",
+    "向file007.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file007.txt",
+    "WRITE file007.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file004.txt",
+   "content": "世界",
+   "task": "创建文件file004.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file004.txt;子任务2:向file004.txt写入内容世界",
+   "subtasks": [
+    "创建文件file004.txt",
+    "向file004.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file004.txt",
+    "WRITE file004.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file008.txt",
+   "content": "你好",
+   "task": "创建文件file008.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file008.txt;子任务2:向file008.txt写入内容你好",
+   "subtasks": [
+    "创建文件file008.txt",
+    "向file008.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file008.txt",
+    "WRITE file008.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file024.txt",
+   "content": "内容A",
+   "task": "创建文件file024.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file024.txt;子任务2:向file024.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file024.txt",
+    "向file024.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file024.txt",
+    "WRITE file024.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file019.txt",
+   "content": "ok",
+   "task": "创建文件file019.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file019.txt;子任务2:向file019.txt写入内容ok",
+   "subtasks": [
+    "创建文件file019.txt",
+    "向file019.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file019.txt",
+    "WRITE file019.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file021.txt",
+   "content": "ok",
+   "task": "创建文件file021.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file021.txt;子任务2:向file021.txt写入内容ok",
+   "subtasks": [
+    "创建文件file021.txt",
+    "向file021.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file021.txt",
+    "WRITE file021.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file009.txt",
+   "content": "内容A",
+   "task": "创建文件file009.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file009.txt;子任务2:向file009.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file009.txt",
+    "向file009.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file009.txt",
+    "WRITE file009.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file023.txt",
+   "content": "世界",
+   "task": "创建文件file023.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file023.txt;子任务2:向file023.txt写入内容世界",
+   "subtasks": [
+    "创建文件file023.txt",
+    "向file023.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file023.txt",
+    "WRITE file023.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file015.txt",
+   "content": "abc123",
+   "task": "创建文件file015.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file015.txt;子任务2:向file015.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file015.txt",
+    "向file015.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file015.txt",
+    "WRITE file015.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file010.txt",
+   "content": "世界",
+   "task": "创建文件file010.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file010.txt;子任务2:向file010.txt写入内容世界",
+   "subtasks": [
+    "创建文件file010.txt",
+    "向file010.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file010.txt",
+    "WRITE file010.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "x.txt",
+   "content": "test",
+   "task": "创建文件x.txt并写入内容test",
+   "decomp": "子任务1:创建文件x.txt;子任务2:向x.txt写入内容test",
+   "subtasks": [
+    "创建文件x.txt",
+    "向x.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH x.txt",
+    "WRITE x.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file032.txt",
+   "content": "测试",
+   "task": "创建文件file032.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file032.txt;子任务2:向file032.txt写入内容测试",
+   "subtasks": [
+    "创建文件file032.txt",
+    "向file032.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file032.txt",
+    "WRITE file032.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file002.txt",
+   "content": "内容A",
+   "task": "创建文件file002.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file002.txt;子任务2:向file002.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file002.txt",
+    "向file002.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file002.txt",
+    "WRITE file002.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file008.txt",
+   "content": "文件内容",
+   "task": "创建文件file008.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file008.txt;子任务2:向file008.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file008.txt",
+    "向file008.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file008.txt",
+    "WRITE file008.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file038.txt",
+   "content": "世界",
+   "task": "创建文件file038.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file038.txt;子任务2:向file038.txt写入内容世界",
+   "subtasks": [
+    "创建文件file038.txt",
+    "向file038.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file038.txt",
+    "WRITE file038.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file000.txt",
+   "content": "test",
+   "task": "创建文件file000.txt并写入内容test",
+   "decomp": "子任务1:创建文件file000.txt;子任务2:向file000.txt写入内容test",
+   "subtasks": [
+    "创建文件file000.txt",
+    "向file000.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file000.txt",
+    "WRITE file000.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file003.txt",
+   "content": "test",
+   "task": "创建文件file003.txt并写入内容test",
+   "decomp": "子任务1:创建文件file003.txt;子任务2:向file003.txt写入内容test",
+   "subtasks": [
+    "创建文件file003.txt",
+    "向file003.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file003.txt",
+    "WRITE file003.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "demo.txt",
+   "content": "数据",
+   "task": "创建文件demo.txt并写入内容数据",
+   "decomp": "子任务1:创建文件demo.txt;子任务2:向demo.txt写入内容数据",
+   "subtasks": [
+    "创建文件demo.txt",
+    "向demo.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH demo.txt",
+    "WRITE demo.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file013.txt",
+   "content": "内容A",
+   "task": "创建文件file013.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file013.txt;子任务2:向file013.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file013.txt",
+    "向file013.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file013.txt",
+    "WRITE file013.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file016.txt",
+   "content": "内容A",
+   "task": "创建文件file016.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file016.txt;子任务2:向file016.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file016.txt",
+    "向file016.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file016.txt",
+    "WRITE file016.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file017.txt",
+   "content": "hello",
+   "task": "创建文件file017.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file017.txt;子任务2:向file017.txt写入内容hello",
+   "subtasks": [
+    "创建文件file017.txt",
+    "向file017.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file017.txt",
+    "WRITE file017.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "result.txt",
+   "content": "abc123",
+   "task": "创建文件result.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件result.txt;子任务2:向result.txt写入内容abc123",
+   "subtasks": [
+    "创建文件result.txt",
+    "向result.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH result.txt",
+    "WRITE result.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file001.txt",
+   "content": "ok",
+   "task": "创建文件file001.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file001.txt;子任务2:向file001.txt写入内容ok",
+   "subtasks": [
+    "创建文件file001.txt",
+    "向file001.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file001.txt",
+    "WRITE file001.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "log.txt",
+   "content": "内容B",
+   "task": "创建文件log.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件log.txt;子任务2:向log.txt写入内容内容B",
+   "subtasks": [
+    "创建文件log.txt",
+    "向log.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH log.txt",
+    "WRITE log.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file038.txt",
+   "content": "abc123",
+   "task": "创建文件file038.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file038.txt;子任务2:向file038.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file038.txt",
+    "向file038.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file038.txt",
+    "WRITE file038.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file007.txt",
+   "content": "文件内容",
+   "task": "创建文件file007.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file007.txt;子任务2:向file007.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file007.txt",
+    "向file007.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file007.txt",
+    "WRITE file007.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "a.txt",
+   "content": "abc123",
+   "task": "创建文件a.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件a.txt;子任务2:向a.txt写入内容abc123",
+   "subtasks": [
+    "创建文件a.txt",
+    "向a.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH a.txt",
+    "WRITE a.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file017.txt",
+   "content": "内容B",
+   "task": "创建文件file017.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file017.txt;子任务2:向file017.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file017.txt",
+    "向file017.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file017.txt",
+    "WRITE file017.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file015.txt",
+   "content": "测试",
+   "task": "创建文件file015.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file015.txt;子任务2:向file015.txt写入内容测试",
+   "subtasks": [
+    "创建文件file015.txt",
+    "向file015.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file015.txt",
+    "WRITE file015.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file023.txt",
+   "content": "文件内容",
+   "task": "创建文件file023.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file023.txt;子任务2:向file023.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file023.txt",
+    "向file023.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file023.txt",
+    "WRITE file023.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file034.txt",
+   "content": "内容A",
+   "task": "创建文件file034.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file034.txt;子任务2:向file034.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file034.txt",
+    "向file034.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file034.txt",
+    "WRITE file034.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file026.txt",
+   "content": "abc123",
+   "task": "创建文件file026.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file026.txt;子任务2:向file026.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file026.txt",
+    "向file026.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file026.txt",
+    "WRITE file026.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file026.txt",
+   "content": "数据",
+   "task": "创建文件file026.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file026.txt;子任务2:向file026.txt写入内容数据",
+   "subtasks": [
+    "创建文件file026.txt",
+    "向file026.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file026.txt",
+    "WRITE file026.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file030.txt",
+   "content": "test",
+   "task": "创建文件file030.txt并写入内容test",
+   "decomp": "子任务1:创建文件file030.txt;子任务2:向file030.txt写入内容test",
+   "subtasks": [
+    "创建文件file030.txt",
+    "向file030.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file030.txt",
+    "WRITE file030.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file039.txt",
+   "content": "你好世界",
+   "task": "创建文件file039.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file039.txt;子任务2:向file039.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file039.txt",
+    "向file039.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file039.txt",
+    "WRITE file039.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file039.txt",
+   "content": "hello",
+   "task": "创建文件file039.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file039.txt;子任务2:向file039.txt写入内容hello",
+   "subtasks": [
+    "创建文件file039.txt",
+    "向file039.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file039.txt",
+    "WRITE file039.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file021.txt",
+   "content": "abc123",
+   "task": "创建文件file021.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file021.txt;子任务2:向file021.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file021.txt",
+    "向file021.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file021.txt",
+    "WRITE file021.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file014.txt",
+   "content": "文件内容",
+   "task": "创建文件file014.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file014.txt;子任务2:向file014.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file014.txt",
+    "向file014.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file014.txt",
+    "WRITE file014.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "test.txt",
+   "content": "ok",
+   "task": "创建文件test.txt并写入内容ok",
+   "decomp": "子任务1:创建文件test.txt;子任务2:向test.txt写入内容ok",
+   "subtasks": [
+    "创建文件test.txt",
+    "向test.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH test.txt",
+    "WRITE test.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file013.txt",
+   "content": "你好世界",
+   "task": "创建文件file013.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file013.txt;子任务2:向file013.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file013.txt",
+    "向file013.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file013.txt",
+    "WRITE file013.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file005.txt",
+   "content": "文件内容",
+   "task": "创建文件file005.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file005.txt;子任务2:向file005.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file005.txt",
+    "向file005.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file005.txt",
+    "WRITE file005.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file015.txt",
+   "content": "你好",
+   "task": "创建文件file015.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file015.txt;子任务2:向file015.txt写入内容你好",
+   "subtasks": [
+    "创建文件file015.txt",
+    "向file015.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file015.txt",
+    "WRITE file015.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file019.txt",
+   "content": "你好",
+   "task": "创建文件file019.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file019.txt;子任务2:向file019.txt写入内容你好",
+   "subtasks": [
+    "创建文件file019.txt",
+    "向file019.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file019.txt",
+    "WRITE file019.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file025.txt",
+   "content": "文件内容",
+   "task": "创建文件file025.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file025.txt;子任务2:向file025.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file025.txt",
+    "向file025.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file025.txt",
+    "WRITE file025.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file038.txt",
+   "content": "hello",
+   "task": "创建文件file038.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file038.txt;子任务2:向file038.txt写入内容hello",
+   "subtasks": [
+    "创建文件file038.txt",
+    "向file038.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file038.txt",
+    "WRITE file038.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file039.txt",
+   "content": "文件内容",
+   "task": "创建文件file039.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file039.txt;子任务2:向file039.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file039.txt",
+    "向file039.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file039.txt",
+    "WRITE file039.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file002.txt",
+   "content": "hello",
+   "task": "创建文件file002.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file002.txt;子任务2:向file002.txt写入内容hello",
+   "subtasks": [
+    "创建文件file002.txt",
+    "向file002.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file002.txt",
+    "WRITE file002.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file003.txt",
+   "content": "数据",
+   "task": "创建文件file003.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file003.txt;子任务2:向file003.txt写入内容数据",
+   "subtasks": [
+    "创建文件file003.txt",
+    "向file003.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file003.txt",
+    "WRITE file003.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file017.txt",
+   "content": "测试",
+   "task": "创建文件file017.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file017.txt;子任务2:向file017.txt写入内容测试",
+   "subtasks": [
+    "创建文件file017.txt",
+    "向file017.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file017.txt",
+    "WRITE file017.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file003.txt",
+   "content": "文件内容",
+   "task": "创建文件file003.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file003.txt;子任务2:向file003.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file003.txt",
+    "向file003.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file003.txt",
+    "WRITE file003.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file037.txt",
+   "content": "内容B",
+   "task": "创建文件file037.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file037.txt;子任务2:向file037.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file037.txt",
+    "向file037.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file037.txt",
+    "WRITE file037.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "data.txt",
+   "content": "内容A",
+   "task": "创建文件data.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件data.txt;子任务2:向data.txt写入内容内容A",
+   "subtasks": [
+    "创建文件data.txt",
+    "向data.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH data.txt",
+    "WRITE data.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "bar.txt",
+   "content": "内容A",
+   "task": "创建文件bar.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件bar.txt;子任务2:向bar.txt写入内容内容A",
+   "subtasks": [
+    "创建文件bar.txt",
+    "向bar.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH bar.txt",
+    "WRITE bar.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file022.txt",
+   "content": "测试",
+   "task": "创建文件file022.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file022.txt;子任务2:向file022.txt写入内容测试",
+   "subtasks": [
+    "创建文件file022.txt",
+    "向file022.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file022.txt",
+    "WRITE file022.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "demo.txt",
+   "content": "你好",
+   "task": "创建文件demo.txt并写入内容你好",
+   "decomp": "子任务1:创建文件demo.txt;子任务2:向demo.txt写入内容你好",
+   "subtasks": [
+    "创建文件demo.txt",
+    "向demo.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH demo.txt",
+    "WRITE demo.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "bar.txt",
+   "content": "hello",
+   "task": "创建文件bar.txt并写入内容hello",
+   "decomp": "子任务1:创建文件bar.txt;子任务2:向bar.txt写入内容hello",
+   "subtasks": [
+    "创建文件bar.txt",
+    "向bar.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH bar.txt",
+    "WRITE bar.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file001.txt",
+   "content": "你好世界",
+   "task": "创建文件file001.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file001.txt;子任务2:向file001.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file001.txt",
+    "向file001.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file001.txt",
+    "WRITE file001.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file012.txt",
+   "content": "abc123",
+   "task": "创建文件file012.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file012.txt;子任务2:向file012.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file012.txt",
+    "向file012.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file012.txt",
+    "WRITE file012.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file008.txt",
+   "content": "abc123",
+   "task": "创建文件file008.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file008.txt;子任务2:向file008.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file008.txt",
+    "向file008.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file008.txt",
+    "WRITE file008.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "x.txt",
+   "content": "数据",
+   "task": "创建文件x.txt并写入内容数据",
+   "decomp": "子任务1:创建文件x.txt;子任务2:向x.txt写入内容数据",
+   "subtasks": [
+    "创建文件x.txt",
+    "向x.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH x.txt",
+    "WRITE x.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "foo.txt",
+   "content": "你好世界",
+   "task": "创建文件foo.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件foo.txt;子任务2:向foo.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件foo.txt",
+    "向foo.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH foo.txt",
+    "WRITE foo.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file002.txt",
+   "content": "你好世界",
+   "task": "创建文件file002.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file002.txt;子任务2:向file002.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file002.txt",
+    "向file002.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file002.txt",
+    "WRITE file002.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "demo.txt",
+   "content": "hello",
+   "task": "创建文件demo.txt并写入内容hello",
+   "decomp": "子任务1:创建文件demo.txt;子任务2:向demo.txt写入内容hello",
+   "subtasks": [
+    "创建文件demo.txt",
+    "向demo.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH demo.txt",
+    "WRITE demo.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file029.txt",
+   "content": "ok",
+   "task": "创建文件file029.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file029.txt;子任务2:向file029.txt写入内容ok",
+   "subtasks": [
+    "创建文件file029.txt",
+    "向file029.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file029.txt",
+    "WRITE file029.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file008.txt",
+   "content": "测试",
+   "task": "创建文件file008.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file008.txt;子任务2:向file008.txt写入内容测试",
+   "subtasks": [
+    "创建文件file008.txt",
+    "向file008.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file008.txt",
+    "WRITE file008.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file028.txt",
+   "content": "数据",
+   "task": "创建文件file028.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file028.txt;子任务2:向file028.txt写入内容数据",
+   "subtasks": [
+    "创建文件file028.txt",
+    "向file028.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file028.txt",
+    "WRITE file028.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file023.txt",
+   "content": "test",
+   "task": "创建文件file023.txt并写入内容test",
+   "decomp": "子任务1:创建文件file023.txt;子任务2:向file023.txt写入内容test",
+   "subtasks": [
+    "创建文件file023.txt",
+    "向file023.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file023.txt",
+    "WRITE file023.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file017.txt",
+   "content": "ok",
+   "task": "创建文件file017.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file017.txt;子任务2:向file017.txt写入内容ok",
+   "subtasks": [
+    "创建文件file017.txt",
+    "向file017.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file017.txt",
+    "WRITE file017.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file027.txt",
+   "content": "数据",
+   "task": "创建文件file027.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file027.txt;子任务2:向file027.txt写入内容数据",
+   "subtasks": [
+    "创建文件file027.txt",
+    "向file027.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file027.txt",
+    "WRITE file027.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file022.txt",
+   "content": "test",
+   "task": "创建文件file022.txt并写入内容test",
+   "decomp": "子任务1:创建文件file022.txt;子任务2:向file022.txt写入内容test",
+   "subtasks": [
+    "创建文件file022.txt",
+    "向file022.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file022.txt",
+    "WRITE file022.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file022.txt",
+   "content": "数据",
+   "task": "创建文件file022.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file022.txt;子任务2:向file022.txt写入内容数据",
+   "subtasks": [
+    "创建文件file022.txt",
+    "向file022.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file022.txt",
+    "WRITE file022.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "note.txt",
+   "content": "你好世界",
+   "task": "创建文件note.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件note.txt;子任务2:向note.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件note.txt",
+    "向note.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH note.txt",
+    "WRITE note.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file016.txt",
+   "content": "内容B",
+   "task": "创建文件file016.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file016.txt;子任务2:向file016.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file016.txt",
+    "向file016.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file016.txt",
+    "WRITE file016.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file006.txt",
+   "content": "abc123",
+   "task": "创建文件file006.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file006.txt;子任务2:向file006.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file006.txt",
+    "向file006.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file006.txt",
+    "WRITE file006.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file000.txt",
+   "content": "abc123",
+   "task": "创建文件file000.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file000.txt;子任务2:向file000.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file000.txt",
+    "向file000.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file000.txt",
+    "WRITE file000.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file037.txt",
+   "content": "世界",
+   "task": "创建文件file037.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file037.txt;子任务2:向file037.txt写入内容世界",
+   "subtasks": [
+    "创建文件file037.txt",
+    "向file037.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file037.txt",
+    "WRITE file037.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file026.txt",
+   "content": "文件内容",
+   "task": "创建文件file026.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file026.txt;子任务2:向file026.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file026.txt",
+    "向file026.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file026.txt",
+    "WRITE file026.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "result.txt",
+   "content": "文件内容",
+   "task": "创建文件result.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件result.txt;子任务2:向result.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件result.txt",
+    "向result.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH result.txt",
+    "WRITE result.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file036.txt",
+   "content": "内容A",
+   "task": "创建文件file036.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file036.txt;子任务2:向file036.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file036.txt",
+    "向file036.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file036.txt",
+    "WRITE file036.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file002.txt",
+   "content": "ok",
+   "task": "创建文件file002.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file002.txt;子任务2:向file002.txt写入内容ok",
+   "subtasks": [
+    "创建文件file002.txt",
+    "向file002.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file002.txt",
+    "WRITE file002.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "a.txt",
+   "content": "文件内容",
+   "task": "创建文件a.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件a.txt;子任务2:向a.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件a.txt",
+    "向a.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH a.txt",
+    "WRITE a.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "foo.txt",
+   "content": "test",
+   "task": "创建文件foo.txt并写入内容test",
+   "decomp": "子任务1:创建文件foo.txt;子任务2:向foo.txt写入内容test",
+   "subtasks": [
+    "创建文件foo.txt",
+    "向foo.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH foo.txt",
+    "WRITE foo.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好世界",
+   "task": "创建文件hello.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "result.txt",
+   "content": "测试",
+   "task": "创建文件result.txt并写入内容测试",
+   "decomp": "子任务1:创建文件result.txt;子任务2:向result.txt写入内容测试",
+   "subtasks": [
+    "创建文件result.txt",
+    "向result.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH result.txt",
+    "WRITE result.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file018.txt",
+   "content": "你好",
+   "task": "创建文件file018.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file018.txt;子任务2:向file018.txt写入内容你好",
+   "subtasks": [
+    "创建文件file018.txt",
+    "向file018.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file018.txt",
+    "WRITE file018.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file003.txt",
+   "content": "你好",
+   "task": "创建文件file003.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file003.txt;子任务2:向file003.txt写入内容你好",
+   "subtasks": [
+    "创建文件file003.txt",
+    "向file003.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file003.txt",
+    "WRITE file003.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file031.txt",
+   "content": "内容A",
+   "task": "创建文件file031.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file031.txt;子任务2:向file031.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file031.txt",
+    "向file031.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file031.txt",
+    "WRITE file031.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "note.txt",
+   "content": "abc123",
+   "task": "创建文件note.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件note.txt;子任务2:向note.txt写入内容abc123",
+   "subtasks": [
+    "创建文件note.txt",
+    "向note.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH note.txt",
+    "WRITE note.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file036.txt",
+   "content": "hello",
+   "task": "创建文件file036.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file036.txt;子任务2:向file036.txt写入内容hello",
+   "subtasks": [
+    "创建文件file036.txt",
+    "向file036.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file036.txt",
+    "WRITE file036.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file030.txt",
+   "content": "内容A",
+   "task": "创建文件file030.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file030.txt;子任务2:向file030.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file030.txt",
+    "向file030.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file030.txt",
+    "WRITE file030.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file014.txt",
+   "content": "世界",
+   "task": "创建文件file014.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file014.txt;子任务2:向file014.txt写入内容世界",
+   "subtasks": [
+    "创建文件file014.txt",
+    "向file014.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file014.txt",
+    "WRITE file014.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file031.txt",
+   "content": "你好世界",
+   "task": "创建文件file031.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file031.txt;子任务2:向file031.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file031.txt",
+    "向file031.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file031.txt",
+    "WRITE file031.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "foo.txt",
+   "content": "内容A",
+   "task": "创建文件foo.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件foo.txt;子任务2:向foo.txt写入内容内容A",
+   "subtasks": [
+    "创建文件foo.txt",
+    "向foo.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH foo.txt",
+    "WRITE foo.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file004.txt",
+   "content": "abc123",
+   "task": "创建文件file004.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file004.txt;子任务2:向file004.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file004.txt",
+    "向file004.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file004.txt",
+    "WRITE file004.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file029.txt",
+   "content": "内容B",
+   "task": "创建文件file029.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file029.txt;子任务2:向file029.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file029.txt",
+    "向file029.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file029.txt",
+    "WRITE file029.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file028.txt",
+   "content": "test",
+   "task": "创建文件file028.txt并写入内容test",
+   "decomp": "子任务1:创建文件file028.txt;子任务2:向file028.txt写入内容test",
+   "subtasks": [
+    "创建文件file028.txt",
+    "向file028.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file028.txt",
+    "WRITE file028.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file032.txt",
+   "content": "内容A",
+   "task": "创建文件file032.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file032.txt;子任务2:向file032.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file032.txt",
+    "向file032.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file032.txt",
+    "WRITE file032.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "demo.txt",
+   "content": "内容B",
+   "task": "创建文件demo.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件demo.txt;子任务2:向demo.txt写入内容内容B",
+   "subtasks": [
+    "创建文件demo.txt",
+    "向demo.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH demo.txt",
+    "WRITE demo.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file005.txt",
+   "content": "ok",
+   "task": "创建文件file005.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file005.txt;子任务2:向file005.txt写入内容ok",
+   "subtasks": [
+    "创建文件file005.txt",
+    "向file005.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file005.txt",
+    "WRITE file005.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file038.txt",
+   "content": "文件内容",
+   "task": "创建文件file038.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file038.txt;子任务2:向file038.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file038.txt",
+    "向file038.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file038.txt",
+    "WRITE file038.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file016.txt",
+   "content": "hello",
+   "task": "创建文件file016.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file016.txt;子任务2:向file016.txt写入内容hello",
+   "subtasks": [
+    "创建文件file016.txt",
+    "向file016.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file016.txt",
+    "WRITE file016.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "a.txt",
+   "content": "测试",
+   "task": "创建文件a.txt并写入内容测试",
+   "decomp": "子任务1:创建文件a.txt;子任务2:向a.txt写入内容测试",
+   "subtasks": [
+    "创建文件a.txt",
+    "向a.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH a.txt",
+    "WRITE a.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "a.txt",
+   "content": "世界",
+   "task": "创建文件a.txt并写入内容世界",
+   "decomp": "子任务1:创建文件a.txt;子任务2:向a.txt写入内容世界",
+   "subtasks": [
+    "创建文件a.txt",
+    "向a.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH a.txt",
+    "WRITE a.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file029.txt",
+   "content": "内容A",
+   "task": "创建文件file029.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file029.txt;子任务2:向file029.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file029.txt",
+    "向file029.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file029.txt",
+    "WRITE file029.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file029.txt",
+   "content": "你好",
+   "task": "创建文件file029.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file029.txt;子任务2:向file029.txt写入内容你好",
+   "subtasks": [
+    "创建文件file029.txt",
+    "向file029.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file029.txt",
+    "WRITE file029.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file022.txt",
+   "content": "内容B",
+   "task": "创建文件file022.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file022.txt;子任务2:向file022.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file022.txt",
+    "向file022.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file022.txt",
+    "WRITE file022.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file024.txt",
+   "content": "内容B",
+   "task": "创建文件file024.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file024.txt;子任务2:向file024.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file024.txt",
+    "向file024.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file024.txt",
+    "WRITE file024.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file010.txt",
+   "content": "test",
+   "task": "创建文件file010.txt并写入内容test",
+   "decomp": "子任务1:创建文件file010.txt;子任务2:向file010.txt写入内容test",
+   "subtasks": [
+    "创建文件file010.txt",
+    "向file010.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file010.txt",
+    "WRITE file010.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "log.txt",
+   "content": "内容A",
+   "task": "创建文件log.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件log.txt;子任务2:向log.txt写入内容内容A",
+   "subtasks": [
+    "创建文件log.txt",
+    "向log.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH log.txt",
+    "WRITE log.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file027.txt",
+   "content": "ok",
+   "task": "创建文件file027.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file027.txt;子任务2:向file027.txt写入内容ok",
+   "subtasks": [
+    "创建文件file027.txt",
+    "向file027.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file027.txt",
+    "WRITE file027.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file006.txt",
+   "content": "你好世界",
+   "task": "创建文件file006.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file006.txt;子任务2:向file006.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file006.txt",
+    "向file006.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file006.txt",
+    "WRITE file006.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file001.txt",
+   "content": "数据",
+   "task": "创建文件file001.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file001.txt;子任务2:向file001.txt写入内容数据",
+   "subtasks": [
+    "创建文件file001.txt",
+    "向file001.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file001.txt",
+    "WRITE file001.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file034.txt",
+   "content": "test",
+   "task": "创建文件file034.txt并写入内容test",
+   "decomp": "子任务1:创建文件file034.txt;子任务2:向file034.txt写入内容test",
+   "subtasks": [
+    "创建文件file034.txt",
+    "向file034.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file034.txt",
+    "WRITE file034.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "test.txt",
+   "content": "test",
+   "task": "创建文件test.txt并写入内容test",
+   "decomp": "子任务1:创建文件test.txt;子任务2:向test.txt写入内容test",
+   "subtasks": [
+    "创建文件test.txt",
+    "向test.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH test.txt",
+    "WRITE test.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "x.txt",
+   "content": "hello",
+   "task": "创建文件x.txt并写入内容hello",
+   "decomp": "子任务1:创建文件x.txt;子任务2:向x.txt写入内容hello",
+   "subtasks": [
+    "创建文件x.txt",
+    "向x.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH x.txt",
+    "WRITE x.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file003.txt",
+   "content": "hello",
+   "task": "创建文件file003.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file003.txt;子任务2:向file003.txt写入内容hello",
+   "subtasks": [
+    "创建文件file003.txt",
+    "向file003.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file003.txt",
+    "WRITE file003.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file013.txt",
+   "content": "ok",
+   "task": "创建文件file013.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file013.txt;子任务2:向file013.txt写入内容ok",
+   "subtasks": [
+    "创建文件file013.txt",
+    "向file013.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file013.txt",
+    "WRITE file013.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file021.txt",
+   "content": "你好",
+   "task": "创建文件file021.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file021.txt;子任务2:向file021.txt写入内容你好",
+   "subtasks": [
+    "创建文件file021.txt",
+    "向file021.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file021.txt",
+    "WRITE file021.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "out.txt",
+   "content": "你好",
+   "task": "创建文件out.txt并写入内容你好",
+   "decomp": "子任务1:创建文件out.txt;子任务2:向out.txt写入内容你好",
+   "subtasks": [
+    "创建文件out.txt",
+    "向out.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH out.txt",
+    "WRITE out.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "demo.txt",
+   "content": "内容A",
+   "task": "创建文件demo.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件demo.txt;子任务2:向demo.txt写入内容内容A",
+   "subtasks": [
+    "创建文件demo.txt",
+    "向demo.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH demo.txt",
+    "WRITE demo.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file015.txt",
+   "content": "世界",
+   "task": "创建文件file015.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file015.txt;子任务2:向file015.txt写入内容世界",
+   "subtasks": [
+    "创建文件file015.txt",
+    "向file015.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file015.txt",
+    "WRITE file015.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file028.txt",
+   "content": "hello",
+   "task": "创建文件file028.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file028.txt;子任务2:向file028.txt写入内容hello",
+   "subtasks": [
+    "创建文件file028.txt",
+    "向file028.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file028.txt",
+    "WRITE file028.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "test.txt",
+   "content": "测试",
+   "task": "创建文件test.txt并写入内容测试",
+   "decomp": "子任务1:创建文件test.txt;子任务2:向test.txt写入内容测试",
+   "subtasks": [
+    "创建文件test.txt",
+    "向test.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH test.txt",
+    "WRITE test.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file025.txt",
+   "content": "你好",
+   "task": "创建文件file025.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file025.txt;子任务2:向file025.txt写入内容你好",
+   "subtasks": [
+    "创建文件file025.txt",
+    "向file025.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file025.txt",
+    "WRITE file025.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "demo.txt",
+   "content": "ok",
+   "task": "创建文件demo.txt并写入内容ok",
+   "decomp": "子任务1:创建文件demo.txt;子任务2:向demo.txt写入内容ok",
+   "subtasks": [
+    "创建文件demo.txt",
+    "向demo.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH demo.txt",
+    "WRITE demo.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "test.txt",
+   "content": "abc123",
+   "task": "创建文件test.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件test.txt;子任务2:向test.txt写入内容abc123",
+   "subtasks": [
+    "创建文件test.txt",
+    "向test.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH test.txt",
+    "WRITE test.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file033.txt",
+   "content": "hello",
+   "task": "创建文件file033.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file033.txt;子任务2:向file033.txt写入内容hello",
+   "subtasks": [
+    "创建文件file033.txt",
+    "向file033.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file033.txt",
+    "WRITE file033.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file011.txt",
+   "content": "hello",
+   "task": "创建文件file011.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file011.txt;子任务2:向file011.txt写入内容hello",
+   "subtasks": [
+    "创建文件file011.txt",
+    "向file011.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file011.txt",
+    "WRITE file011.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file000.txt",
+   "content": "内容B",
+   "task": "创建文件file000.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file000.txt;子任务2:向file000.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file000.txt",
+    "向file000.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file000.txt",
+    "WRITE file000.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file023.txt",
+   "content": "你好",
+   "task": "创建文件file023.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file023.txt;子任务2:向file023.txt写入内容你好",
+   "subtasks": [
+    "创建文件file023.txt",
+    "向file023.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file023.txt",
+    "WRITE file023.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file024.txt",
+   "content": "你好世界",
+   "task": "创建文件file024.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file024.txt;子任务2:向file024.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file024.txt",
+    "向file024.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file024.txt",
+    "WRITE file024.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file000.txt",
+   "content": "世界",
+   "task": "创建文件file000.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file000.txt;子任务2:向file000.txt写入内容世界",
+   "subtasks": [
+    "创建文件file000.txt",
+    "向file000.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file000.txt",
+    "WRITE file000.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file003.txt",
+   "content": "内容A",
+   "task": "创建文件file003.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file003.txt;子任务2:向file003.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file003.txt",
+    "向file003.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file003.txt",
+    "WRITE file003.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "log.txt",
+   "content": "abc123",
+   "task": "创建文件log.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件log.txt;子任务2:向log.txt写入内容abc123",
+   "subtasks": [
+    "创建文件log.txt",
+    "向log.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH log.txt",
+    "WRITE log.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file013.txt",
+   "content": "abc123",
+   "task": "创建文件file013.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file013.txt;子任务2:向file013.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file013.txt",
+    "向file013.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file013.txt",
+    "WRITE file013.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file002.txt",
+   "content": "内容B",
+   "task": "创建文件file002.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file002.txt;子任务2:向file002.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file002.txt",
+    "向file002.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file002.txt",
+    "WRITE file002.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file027.txt",
+   "content": "内容B",
+   "task": "创建文件file027.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file027.txt;子任务2:向file027.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file027.txt",
+    "向file027.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file027.txt",
+    "WRITE file027.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file011.txt",
+   "content": "内容B",
+   "task": "创建文件file011.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file011.txt;子任务2:向file011.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file011.txt",
+    "向file011.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file011.txt",
+    "WRITE file011.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file027.txt",
+   "content": "内容A",
+   "task": "创建文件file027.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file027.txt;子任务2:向file027.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file027.txt",
+    "向file027.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file027.txt",
+    "WRITE file027.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file016.txt",
+   "content": "你好世界",
+   "task": "创建文件file016.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file016.txt;子任务2:向file016.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file016.txt",
+    "向file016.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file016.txt",
+    "WRITE file016.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file010.txt",
+   "content": "测试",
+   "task": "创建文件file010.txt并写入内容测试",
+   "decomp": "子任务1:创建文件file010.txt;子任务2:向file010.txt写入内容测试",
+   "subtasks": [
+    "创建文件file010.txt",
+    "向file010.txt写入内容测试"
+   ],
+   "actions": [
+    "TOUCH file010.txt",
+    "WRITE file010.txt 测试"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file011.txt",
+   "content": "test",
+   "task": "创建文件file011.txt并写入内容test",
+   "decomp": "子任务1:创建文件file011.txt;子任务2:向file011.txt写入内容test",
+   "subtasks": [
+    "创建文件file011.txt",
+    "向file011.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH file011.txt",
+    "WRITE file011.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "test.txt",
+   "content": "hello",
+   "task": "创建文件test.txt并写入内容hello",
+   "decomp": "子任务1:创建文件test.txt;子任务2:向test.txt写入内容hello",
+   "subtasks": [
+    "创建文件test.txt",
+    "向test.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH test.txt",
+    "WRITE test.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file011.txt",
+   "content": "数据",
+   "task": "创建文件file011.txt并写入内容数据",
+   "decomp": "子任务1:创建文件file011.txt;子任务2:向file011.txt写入内容数据",
+   "subtasks": [
+    "创建文件file011.txt",
+    "向file011.txt写入内容数据"
+   ],
+   "actions": [
+    "TOUCH file011.txt",
+    "WRITE file011.txt 数据"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "test",
+   "task": "创建文件hello.txt并写入内容test",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容test",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容test"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt test"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "bar.txt",
+   "content": "世界",
+   "task": "创建文件bar.txt并写入内容世界",
+   "decomp": "子任务1:创建文件bar.txt;子任务2:向bar.txt写入内容世界",
+   "subtasks": [
+    "创建文件bar.txt",
+    "向bar.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH bar.txt",
+    "WRITE bar.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file014.txt",
+   "content": "你好世界",
+   "task": "创建文件file014.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file014.txt;子任务2:向file014.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file014.txt",
+    "向file014.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file014.txt",
+    "WRITE file014.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file034.txt",
+   "content": "hello",
+   "task": "创建文件file034.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file034.txt;子任务2:向file034.txt写入内容hello",
+   "subtasks": [
+    "创建文件file034.txt",
+    "向file034.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file034.txt",
+    "WRITE file034.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file000.txt",
+   "content": "内容A",
+   "task": "创建文件file000.txt并写入内容内容A",
+   "decomp": "子任务1:创建文件file000.txt;子任务2:向file000.txt写入内容内容A",
+   "subtasks": [
+    "创建文件file000.txt",
+    "向file000.txt写入内容内容A"
+   ],
+   "actions": [
+    "TOUCH file000.txt",
+    "WRITE file000.txt 内容A"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file028.txt",
+   "content": "你好世界",
+   "task": "创建文件file028.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file028.txt;子任务2:向file028.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file028.txt",
+    "向file028.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file028.txt",
+    "WRITE file028.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file004.txt",
+   "content": "内容B",
+   "task": "创建文件file004.txt并写入内容内容B",
+   "decomp": "子任务1:创建文件file004.txt;子任务2:向file004.txt写入内容内容B",
+   "subtasks": [
+    "创建文件file004.txt",
+    "向file004.txt写入内容内容B"
+   ],
+   "actions": [
+    "TOUCH file004.txt",
+    "WRITE file004.txt 内容B"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file015.txt",
+   "content": "文件内容",
+   "task": "创建文件file015.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file015.txt;子任务2:向file015.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file015.txt",
+    "向file015.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file015.txt",
+    "WRITE file015.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file026.txt",
+   "content": "你好",
+   "task": "创建文件file026.txt并写入内容你好",
+   "decomp": "子任务1:创建文件file026.txt;子任务2:向file026.txt写入内容你好",
+   "subtasks": [
+    "创建文件file026.txt",
+    "向file026.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH file026.txt",
+    "WRITE file026.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file014.txt",
+   "content": "abc123",
+   "task": "创建文件file014.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file014.txt;子任务2:向file014.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file014.txt",
+    "向file014.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file014.txt",
+    "WRITE file014.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file037.txt",
+   "content": "你好世界",
+   "task": "创建文件file037.txt并写入内容你好世界",
+   "decomp": "子任务1:创建文件file037.txt;子任务2:向file037.txt写入内容你好世界",
+   "subtasks": [
+    "创建文件file037.txt",
+    "向file037.txt写入内容你好世界"
+   ],
+   "actions": [
+    "TOUCH file037.txt",
+    "WRITE file037.txt 你好世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "result.txt",
+   "content": "世界",
+   "task": "创建文件result.txt并写入内容世界",
+   "decomp": "子任务1:创建文件result.txt;子任务2:向result.txt写入内容世界",
+   "subtasks": [
+    "创建文件result.txt",
+    "向result.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH result.txt",
+    "WRITE result.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file001.txt",
+   "content": "abc123",
+   "task": "创建文件file001.txt并写入内容abc123",
+   "decomp": "子任务1:创建文件file001.txt;子任务2:向file001.txt写入内容abc123",
+   "subtasks": [
+    "创建文件file001.txt",
+    "向file001.txt写入内容abc123"
+   ],
+   "actions": [
+    "TOUCH file001.txt",
+    "WRITE file001.txt abc123"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file010.txt",
+   "content": "hello",
+   "task": "创建文件file010.txt并写入内容hello",
+   "decomp": "子任务1:创建文件file010.txt;子任务2:向file010.txt写入内容hello",
+   "subtasks": [
+    "创建文件file010.txt",
+    "向file010.txt写入内容hello"
+   ],
+   "actions": [
+    "TOUCH file010.txt",
+    "WRITE file010.txt hello"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file012.txt",
+   "content": "世界",
+   "task": "创建文件file012.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file012.txt;子任务2:向file012.txt写入内容世界",
+   "subtasks": [
+    "创建文件file012.txt",
+    "向file012.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file012.txt",
+    "WRITE file012.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file034.txt",
+   "content": "文件内容",
+   "task": "创建文件file034.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file034.txt;子任务2:向file034.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file034.txt",
+    "向file034.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file034.txt",
+    "WRITE file034.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file013.txt",
+   "content": "文件内容",
+   "task": "创建文件file013.txt并写入内容文件内容",
+   "decomp": "子任务1:创建文件file013.txt;子任务2:向file013.txt写入内容文件内容",
+   "subtasks": [
+    "创建文件file013.txt",
+    "向file013.txt写入内容文件内容"
+   ],
+   "actions": [
+    "TOUCH file013.txt",
+    "WRITE file013.txt 文件内容"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "a.txt",
+   "content": "ok",
+   "task": "创建文件a.txt并写入内容ok",
+   "decomp": "子任务1:创建文件a.txt;子任务2:向a.txt写入内容ok",
+   "subtasks": [
+    "创建文件a.txt",
+    "向a.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH a.txt",
+    "WRITE a.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file028.txt",
+   "content": "世界",
+   "task": "创建文件file028.txt并写入内容世界",
+   "decomp": "子任务1:创建文件file028.txt;子任务2:向file028.txt写入内容世界",
+   "subtasks": [
+    "创建文件file028.txt",
+    "向file028.txt写入内容世界"
+   ],
+   "actions": [
+    "TOUCH file028.txt",
+    "WRITE file028.txt 世界"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "file022.txt",
+   "content": "ok",
+   "task": "创建文件file022.txt并写入内容ok",
+   "decomp": "子任务1:创建文件file022.txt;子任务2:向file022.txt写入内容ok",
+   "subtasks": [
+    "创建文件file022.txt",
+    "向file022.txt写入内容ok"
+   ],
+   "actions": [
+    "TOUCH file022.txt",
+    "WRITE file022.txt ok"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "task",
+   "filename": "hello.txt",
+   "content": "你好",
+   "task": "创建文件hello.txt并写入内容你好",
+   "decomp": "子任务1:创建文件hello.txt;子任务2:向hello.txt写入内容你好",
+   "subtasks": [
+    "创建文件hello.txt",
+    "向hello.txt写入内容你好"
+   ],
+   "actions": [
+    "TOUCH hello.txt",
+    "WRITE hello.txt 你好"
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "你好！有什么可以帮你？"
+    ],
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我可以创建文件、写内容，也能陪你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是谁"
+    ],
+    [
+     "助手",
+     "我是一个简单的对话模型，能聊天也能建文件。"
+    ],
+    [
+     "用户",
+     "帮我建个文件"
+    ],
+    [
+     "助手",
+     "好的，请告诉我文件名和内容，我会创建它。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "一加一等于二。"
+    ],
+    [
+     "用户",
+     "谢谢"
+    ],
+    [
+     "助手",
+     "不客气！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "早上好"
+    ],
+    [
+     "助手",
+     "早上好！今天想做点什么？"
+    ],
+    [
+     "用户",
+     "你会创建文件吗"
+    ],
+    [
+     "助手",
+     "会呀，告诉我文件名和内容就行。"
+    ],
+    [
+     "用户",
+     "那太好了"
+    ],
+    [
+     "助手",
+     "随时找我。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你叫什么名字"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "在吗"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "你好！我是你的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你叫什么名字"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会聊天吗"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好呀"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "地球上有几个大洲"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是什么模型"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "早上好"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "嗨"
+    ],
+    [
+     "助手",
+     "你好！我是你的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一年有几个月"
+    ],
+    [
+     "助手",
+     "地球上有七大洲。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "嗨"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "好的：小猫问妈妈为什么自己长不高，妈妈说因为你还在喵喵喵。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "在吗"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你叫什么名字"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "我是程序，不用吃饭，不过谢谢关心。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好呀"
+    ],
+    [
+     "助手",
+     "你好！我是你的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "地球上有七大洲。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好呀"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "中国的首都是哪里"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "是啊，天气真好。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "再见"
+    ],
+    [
+     "助手",
+     "是啊，天气真好。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "中国的首都是哪里"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "谢谢"
+    ],
+    [
+     "助手",
+     "不客气！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好呀"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "再见"
+    ],
+    [
+     "助手",
+     "不客气！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "今天天气不错"
+    ],
+    [
+     "助手",
+     "再见，祝你一天愉快！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "再见"
+    ],
+    [
+     "助手",
+     "好的：小猫问妈妈为什么自己长不高，妈妈说因为你还在喵喵喵。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "你好！我是你的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "地球上有几个大洲"
+    ],
+    [
+     "助手",
+     "一加一等于二。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "谢谢"
+    ],
+    [
+     "助手",
+     "我是程序，不用吃饭，不过谢谢关心。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一年有几个月"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你叫什么名字"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会创建文件吗"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "一加一等于二。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "早上好"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是谁"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "在吗"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会创建文件吗"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "地球上有七大洲。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "再见"
+    ],
+    [
+     "助手",
+     "是啊，天气真好。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好呀"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "早上好"
+    ],
+    [
+     "助手",
+     "你好！我是你的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会创建文件吗"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "你好！我是你的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是谁"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "一年有十二个月。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会创建文件吗"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你真棒"
+    ],
+    [
+     "助手",
+     "是啊，天气真好。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你真棒"
+    ],
+    [
+     "助手",
+     "不客气！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "不客气！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你叫什么名字"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会聊天吗"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "嗨"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会聊天吗"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你真棒"
+    ],
+    [
+     "助手",
+     "是啊，天气真好。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好呀"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "嗨"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "是啊，天气真好。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你真棒"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "中国的首都是哪里"
+    ],
+    [
+     "助手",
+     "一加一等于二。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "再见"
+    ],
+    [
+     "助手",
+     "再见，祝你一天愉快！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是谁"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是谁"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会聊天吗"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会创建文件吗"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "嗨"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "地球上有几个大洲"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "中国的首都是哪里"
+    ],
+    [
+     "助手",
+     "地球上有七大洲。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你真棒"
+    ],
+    [
+     "助手",
+     "我是程序，不用吃饭，不过谢谢关心。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "地球上有七大洲。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会创建文件吗"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会聊天吗"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "一加一等于二。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "不客气！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "一加一等于二。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "中国的首都是哪里"
+    ],
+    [
+     "助手",
+     "地球上有七大洲。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "再见"
+    ],
+    [
+     "助手",
+     "不客气！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "早上好"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会聊天吗"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "早上好"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "早上好"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一年有几个月"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你叫什么名字"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会聊天吗"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "我是程序，不用吃饭，不过谢谢关心。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "嗨"
+    ],
+    [
+     "助手",
+     "你好！我是你的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你真棒"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "好的：小猫问妈妈为什么自己长不高，妈妈说因为你还在喵喵喵。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你叫什么名字"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会聊天吗"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "地球上有七大洲。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一年有几个月"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "一加一等于二。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "中国的首都是哪里"
+    ],
+    [
+     "助手",
+     "一年有十二个月。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "一加一等于二。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "我是程序，不用吃饭，不过谢谢关心。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "一年有十二个月。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "嗨"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "谢谢"
+    ],
+    [
+     "助手",
+     "再见，祝你一天愉快！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "地球上有七大洲。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "地球上有七大洲。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "好的：小猫问妈妈为什么自己长不高，妈妈说因为你还在喵喵喵。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你叫什么名字"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "我是程序，不用吃饭，不过谢谢关心。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会创建文件吗"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "再见"
+    ],
+    [
+     "助手",
+     "不客气！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "地球上有几个大洲"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "再见"
+    ],
+    [
+     "助手",
+     "再见，祝你一天愉快！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "早上好"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "中国的首都是哪里"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是谁"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会聊天吗"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "今天天气不错"
+    ],
+    [
+     "助手",
+     "我是程序，不用吃饭，不过谢谢关心。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "今天天气不错"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我是一个能创建文件、写内容，也能陪你聊天的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "嗨"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是什么模型"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "在吗"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "嗨"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "再见，祝你一天愉快！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "一年有十二个月。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "再见"
+    ],
+    [
+     "助手",
+     "是啊，天气真好。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一年有几个月"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会做什么"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一年有几个月"
+    ],
+    [
+     "助手",
+     "一加一等于二。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你叫什么名字"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是谁"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "再见，祝你一天愉快！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "今天天气不错"
+    ],
+    [
+     "助手",
+     "不客气！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是什么模型"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "再见"
+    ],
+    [
+     "助手",
+     "我是程序，不用吃饭，不过谢谢关心。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "在吗"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "谢谢"
+    ],
+    [
+     "助手",
+     "好的：小猫问妈妈为什么自己长不高，妈妈说因为你还在喵喵喵。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你会聊天吗"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "嗨"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你真棒"
+    ],
+    [
+     "助手",
+     "再见，祝你一天愉快！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "嗨"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是什么模型"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是谁"
+    ],
+    [
+     "助手",
+     "我叫小助，是个简单的对话模型。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "好的：小猫问妈妈为什么自己长不高，妈妈说因为你还在喵喵喵。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "是啊，天气真好。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "你好，很高兴见到你。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "早上好"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "你好！我是你的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好呀"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "在吗"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你叫什么名字"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "在吗"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "好的：小猫问妈妈为什么自己长不高，妈妈说因为你还在喵喵喵。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "中国的首都是哪里"
+    ],
+    [
+     "助手",
+     "一年有十二个月。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好呀"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "在吗"
+    ],
+    [
+     "助手",
+     "你好！我是你的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一年有几个月"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "在吗"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你好啊"
+    ],
+    [
+     "助手",
+     "早上好！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "在吗"
+    ],
+    [
+     "助手",
+     "你好！我是你的助手。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一年有几个月"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "一年有十二个月。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一加一等于几"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "谢谢"
+    ],
+    [
+     "助手",
+     "是啊，天气真好。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你真棒"
+    ],
+    [
+     "助手",
+     "我是程序，不用吃饭，不过谢谢关心。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一年有几个月"
+    ],
+    [
+     "助手",
+     "一年有十二个月。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "今天天气不错"
+    ],
+    [
+     "助手",
+     "是啊，天气真好。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "地球上有几个大洲"
+    ],
+    [
+     "助手",
+     "中国的首都是北京。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "早上好"
+    ],
+    [
+     "助手",
+     "嗨，我在，有什么事吗？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是什么模型"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "不客气！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "讲个笑话"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你真棒"
+    ],
+    [
+     "助手",
+     "好的：小猫问妈妈为什么自己长不高，妈妈说因为你还在喵喵喵。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "地球上有几个大洲"
+    ],
+    [
+     "助手",
+     "地球上有七大洲。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一年有几个月"
+    ],
+    [
+     "助手",
+     "一加一等于二。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你是谁"
+    ],
+    [
+     "助手",
+     "我可以帮你创建文件、写入文字，也能和你聊天。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "今天天气不错"
+    ],
+    [
+     "助手",
+     "再见，祝你一天愉快！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你能帮我写东西吗"
+    ],
+    [
+     "助手",
+     "我既能聊天，也能执行创建文件这类小任务。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "今天天气不错"
+    ],
+    [
+     "助手",
+     "不客气！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "早上好"
+    ],
+    [
+     "助手",
+     "你好呀，有什么可以帮你？"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "你吃饭了吗"
+    ],
+    [
+     "助手",
+     "谢谢夸奖，我会继续努力。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "一年有几个月"
+    ],
+    [
+     "助手",
+     "地球上有七大洲。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "再见"
+    ],
+    [
+     "助手",
+     "再见，祝你一天愉快！"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "水的化学式是什么"
+    ],
+    [
+     "助手",
+     "一年有十二个月。"
+    ]
+   ]
+  },
+  {
+   "type": "chat",
+   "turns": [
+    [
+     "用户",
+     "地球上有几个大洲"
+    ],
+    [
+     "助手",
+     "水的化学式是H2O。"
+    ]
+   ]
+  }
+ ],
+ "vocab": {
+  "special": {
+   "[PAD]": 0,
+   "[ROOT]": 1,
+   "[LEAF]": 2,
+   "[EOS]": 3,
+   "[UNK]": 4,
+   "[CHAT]": 5
+  },
+  "char2id": {
+   " ": 6,
+   ".": 7,
+   "0": 8,
+   "1": 9,
+   "2": 10,
+   "3": 11,
+   "4": 12,
+   "5": 13,
+   "6": 14,
+   "7": 15,
+   "8": 16,
+   "9": 17,
+   ":": 18,
+   ";": 19,
+   "A": 20,
+   "B": 21,
+   "C": 22,
+   "E": 23,
+   "H": 24,
+   "I": 25,
+   "O": 26,
+   "R": 27,
+   "T": 28,
+   "U": 29,
+   "W": 30,
+   "a": 31,
+   "b": 32,
+   "c": 33,
+   "d": 34,
+   "e": 35,
+   "f": 36,
+   "g": 37,
+   "h": 38,
+   "i": 39,
+   "k": 40,
+   "l": 41,
+   "m": 42,
+   "n": 43,
+   "o": 44,
+   "r": 45,
+   "s": 46,
+   "t": 47,
+   "u": 48,
+   "x": 49,
+   "|": 50,
+   "、": 51,
+   "。": 52,
+   "一": 53,
+   "七": 54,
+   "上": 55,
+   "不": 56,
+   "世": 57,
+   "东": 58,
+   "个": 59,
+   "中": 60,
+   "为": 61,
+   "么": 62,
+   "也": 63,
+   "了": 64,
+   "事": 65,
+   "二": 66,
+   "于": 67,
+   "京": 68,
+   "什": 69,
+   "今": 70,
+   "以": 71,
+   "件": 72,
+   "任": 73,
+   "会": 74,
+   "你": 75,
+   "做": 76,
+   "入": 77,
+   "关": 78,
+   "兴": 79,
+   "内": 80,
+   "再": 81,
+   "写": 82,
+   "几": 83,
+   "创": 84,
+   "到": 85,
+   "力": 86,
+   "加": 87,
+   "务": 88,
+   "助": 89,
+   "努": 90,
+   "化": 91,
+   "北": 92,
+   "十": 93,
+   "单": 94,
+   "叫": 95,
+   "可": 96,
+   "吃": 97,
+   "名": 98,
+   "向": 99,
+   "吗": 100,
+   "呀": 101,
+   "告": 102,
+   "和": 103,
+   "哪": 104,
+   "啊": 105,
+   "喵": 106,
+   "嗨": 107,
+   "因": 108,
+   "国": 109,
+   "在": 110,
+   "地": 111,
+   "型": 112,
+   "大": 113,
+   "天": 114,
+   "太": 115,
+   "夸": 116,
+   "奖": 117,
+   "好": 118,
+   "妈": 119,
+   "子": 120,
+   "字": 121,
+   "学": 122,
+   "它": 123,
+   "客": 124,
+   "容": 125,
+   "对": 126,
+   "小": 127,
+   "就": 128,
+   "己": 129,
+   "帮": 130,
+   "年": 131,
+   "并": 132,
+   "序": 133,
+   "建": 134,
+   "式": 135,
+   "很": 136,
+   "心": 137,
+   "快": 138,
+   "想": 139,
+   "愉": 140,
+   "我": 141,
+   "户": 142,
+   "手": 143,
+   "执": 144,
+   "找": 145,
+   "据": 146,
+   "数": 147,
+   "文": 148,
+   "既": 149,
+   "早": 150,
+   "时": 151,
+   "是": 152,
+   "月": 153,
+   "有": 154,
+   "棒": 155,
+   "模": 156,
+   "气": 157,
+   "水": 158,
+   "洲": 159,
+   "测": 160,
+   "点": 161,
+   "猫": 162,
+   "球": 163,
+   "用": 164,
+   "界": 165,
+   "的": 166,
+   "真": 167,
+   "祝": 168,
+   "程": 169,
+   "笑": 170,
+   "等": 171,
+   "简": 172,
+   "类": 173,
+   "继": 174,
+   "续": 175,
+   "聊": 176,
+   "能": 177,
+   "自": 178,
+   "行": 179,
+   "西": 180,
+   "见": 181,
+   "讲": 182,
+   "诉": 183,
+   "试": 184,
+   "话": 185,
+   "说": 186,
+   "请": 187,
+   "谁": 188,
+   "谢": 189,
+   "过": 190,
+   "还": 191,
+   "这": 192,
+   "那": 193,
+   "都": 194,
+   "里": 195,
+   "错": 196,
+   "长": 197,
+   "问": 198,
+   "陪": 199,
+   "随": 200,
+   "饭": 201,
+   "首": 202,
+   "高": 203,
+   "！": 204,
+   "，": 205,
+   "：": 206,
+   "？": 207
+  },
+  "id2char": {
+   "6": " ",
+   "7": ".",
+   "8": "0",
+   "9": "1",
+   "10": "2",
+   "11": "3",
+   "12": "4",
+   "13": "5",
+   "14": "6",
+   "15": "7",
+   "16": "8",
+   "17": "9",
+   "18": ":",
+   "19": ";",
+   "20": "A",
+   "21": "B",
+   "22": "C",
+   "23": "E",
+   "24": "H",
+   "25": "I",
+   "26": "O",
+   "27": "R",
+   "28": "T",
+   "29": "U",
+   "30": "W",
+   "31": "a",
+   "32": "b",
+   "33": "c",
+   "34": "d",
+   "35": "e",
+   "36": "f",
+   "37": "g",
+   "38": "h",
+   "39": "i",
+   "40": "k",
+   "41": "l",
+   "42": "m",
+   "43": "n",
+   "44": "o",
+   "45": "r",
+   "46": "s",
+   "47": "t",
+   "48": "u",
+   "49": "x",
+   "50": "|",
+   "51": "、",
+   "52": "。",
+   "53": "一",
+   "54": "七",
+   "55": "上",
+   "56": "不",
+   "57": "世",
+   "58": "东",
+   "59": "个",
+   "60": "中",
+   "61": "为",
+   "62": "么",
+   "63": "也",
+   "64": "了",
+   "65": "事",
+   "66": "二",
+   "67": "于",
+   "68": "京",
+   "69": "什",
+   "70": "今",
+   "71": "以",
+   "72": "件",
+   "73": "任",
+   "74": "会",
+   "75": "你",
+   "76": "做",
+   "77": "入",
+   "78": "关",
+   "79": "兴",
+   "80": "内",
+   "81": "再",
+   "82": "写",
+   "83": "几",
+   "84": "创",
+   "85": "到",
+   "86": "力",
+   "87": "加",
+   "88": "务",
+   "89": "助",
+   "90": "努",
+   "91": "化",
+   "92": "北",
+   "93": "十",
+   "94": "单",
+   "95": "叫",
+   "96": "可",
+   "97": "吃",
+   "98": "名",
+   "99": "向",
+   "100": "吗",
+   "101": "呀",
+   "102": "告",
+   "103": "和",
+   "104": "哪",
+   "105": "啊",
+   "106": "喵",
+   "107": "嗨",
+   "108": "因",
+   "109": "国",
+   "110": "在",
+   "111": "地",
+   "112": "型",
+   "113": "大",
+   "114": "天",
+   "115": "太",
+   "116": "夸",
+   "117": "奖",
+   "118": "好",
+   "119": "妈",
+   "120": "子",
+   "121": "字",
+   "122": "学",
+   "123": "它",
+   "124": "客",
+   "125": "容",
+   "126": "对",
+   "127": "小",
+   "128": "就",
+   "129": "己",
+   "130": "帮",
+   "131": "年",
+   "132": "并",
+   "133": "序",
+   "134": "建",
+   "135": "式",
+   "136": "很",
+   "137": "心",
+   "138": "快",
+   "139": "想",
+   "140": "愉",
+   "141": "我",
+   "142": "户",
+   "143": "手",
+   "144": "执",
+   "145": "找",
+   "146": "据",
+   "147": "数",
+   "148": "文",
+   "149": "既",
+   "150": "早",
+   "151": "时",
+   "152": "是",
+   "153": "月",
+   "154": "有",
+   "155": "棒",
+   "156": "模",
+   "157": "气",
+   "158": "水",
+   "159": "洲",
+   "160": "测",
+   "161": "点",
+   "162": "猫",
+   "163": "球",
+   "164": "用",
+   "165": "界",
+   "166": "的",
+   "167": "真",
+   "168": "祝",
+   "169": "程",
+   "170": "笑",
+   "171": "等",
+   "172": "简",
+   "173": "类",
+   "174": "继",
+   "175": "续",
+   "176": "聊",
+   "177": "能",
+   "178": "自",
+   "179": "行",
+   "180": "西",
+   "181": "见",
+   "182": "讲",
+   "183": "诉",
+   "184": "试",
+   "185": "话",
+   "186": "说",
+   "187": "请",
+   "188": "谁",
+   "189": "谢",
+   "190": "过",
+   "191": "还",
+   "192": "这",
+   "193": "那",
+   "194": "都",
+   "195": "里",
+   "196": "错",
+   "197": "长",
+   "198": "问",
+   "199": "陪",
+   "200": "随",
+   "201": "饭",
+   "202": "首",
+   "203": "高",
+   "204": "！",
+   "205": "，",
+   "206": "：",
+   "207": "？"
+  }
+ }
+}
