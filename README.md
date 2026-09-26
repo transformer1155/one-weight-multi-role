@@ -132,26 +132,42 @@ python chat.py
 
 ## 5. 部署到 GitHub
 
-本仓库是纯本地代码，不依赖任何外部服务，可直接推到任意 GitHub 账号：
+本仓库是纯本地代码，不依赖任何外部服务，可直接推到任意 GitHub 账号。
+
+> ⚠️ **关于当前运行环境（CodeBuddy 沙箱）**：沙箱对 GitHub **没有网络出口**
+> （`api.github.com` 被 DNS 劫持到内网保留段、`git` 直连 `github.com` 的 TLS 被拦截端点中断、
+> 本地后端服务代理仅对 Agent 运行时上下文鉴权，裸调用返回 403）。
+> 因此**无法从本沙箱内直接推送到 GitHub**，需要你在能访问 `github.com` 的环境（本机 / 有公网出口的云主机）执行下方步骤。
+
+**方式一（推荐）：用附带的脚本一键建仓库 + 推送**
 
 ```bash
-# 在能访问 github.com 的环境里（本机 / 有公网出口的云主机）：
+# 1. 在能访问 github.com 的机器上下载本仓库（含 push_to_github.sh）
+# 2. 进入仓库目录，用你提供的 fine-grained PAT 执行：
+GITHUB_TOKEN=github_pat_xxx ./push_to_github.sh https://github.com/transformer1155/one-weight-multi-role.git
+#   脚本会：①（若仓库不存在）自动在 GitHub 建仓库  ② git add/commit  ③ push -u origin main
+```
+
+**方式二：手动 git 命令**
+
+```bash
 git init
 git add .
 git commit -m "feat: one-weight multi-role LM (ROOT/LEAF/CHAT) + task闭环 + 对话"
-# 在你的 GitHub 新建空仓库 <your-repo>，然后：
-git remote add origin https://github.com/<你的用户名>/<你的仓库>.git
+# 在 GitHub 新建空仓库 one-weight-multi-role，然后：
+git remote add origin https://github.com/transformer1155/one-weight-multi-role.git
 git branch -M main
 git push -u origin main
+# 使用 PAT/OAuth 时，远程地址写成 https://oauth2:<TOKEN>@github.com/... 即可免密推送
 ```
 
-> 注意：若使用 **GitHub 连接器 / OAuth token** 推送，远程地址改为
-> `https://oauth2:<TOKEN>@github.com/<你的用户名>/<你的仓库>.git` 即可，无需输入密码。
-> 本仓库附带的 `push_to_github.sh` 已封装上述步骤，填入仓库地址后一键执行。
+> 本仓库已在沙箱内完成 `git init` + 全部源码提交，remote 已指向
+> `https://github.com/transformer1155/one-weight-multi-role.git`（**未写入任何 token**）。
+> 你拿到仓库后直接 `git push` 或在联网环境跑 `push_to_github.sh` 即可。
 
 ---
 
-## 5. 已知局限（重要，原型边界）
+## 6. 已知局限（重要，原型边界）
 
 1. **不能对 `os` 写文件求导**：文件 IO 是不可导的副作用，梯度无法真正"穿过" `os.write`。
    本原型用**教师强制的语言模型 loss** 作为可导的梯度载体（它天然逼迫模型产出能让验证器通过的动作），
@@ -172,7 +188,7 @@ git push -u origin main
 
 ---
 
-## 6. 后续可扩展方向（先闭环，后扩展）
+## 7. 后续可扩展方向（先闭环，后扩展）
 
 - **可微环境**：用一个可微的"文件世界"模拟器（如把文件内容做成稠密张量）替代真实 `os`，让验证结果能真正反传。
 - **RL 闭环**：把验证器的 0/1 当作 reward，用 REINFORCE/PPO 端到端训练，角色 token 作为 policy 的条件。
